@@ -1,0 +1,18 @@
+#blog h3, h4 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: #fff;
+}
+#blog .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #fff;
+}
+#blog article{
+    margin: 15px;
+}
+#blog img {
+    width: 100%;
+    max-width: 280px;
+}

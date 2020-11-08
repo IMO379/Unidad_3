@@ -1,0 +1,35 @@
+<!DOCTYPE>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="PQG">
+    <meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/validarmenu.css" title="Color">
+<title>Validacion de datos.</title>
+</head>
+<body>
+	<script type="text/javascript" src="js/acciones.js"></script>
+	<form>
+	<div class="formulario">
+			<div class="menu">
+				Nombre: <br> 
+				Apellido Paterno:<br>
+				Apellido Materno:<br>
+				Fecha de nacimiento:<br>
+				RFC:<br>
+			</div>
+			<div class="espacios"> 
+				<input type="text" name="Nomb"/><br> 
+				<input type="text" name="apellidop"/><br>
+				<input type="text" name="apellidom"/><br> 
+				<input type="date" name="fecha"/><br> 
+				<input type="text" name="rfc" maxlength="13"/><br> 
+			</div>
+		<div class="boton">
+			<input type="submit" onClick="return nombre(Nomb,apellidop,apellidom,fecha,rfc);" value="Ingresar."/>
+		</div>
+	</div>
+</form>
+</body>
+</html>
